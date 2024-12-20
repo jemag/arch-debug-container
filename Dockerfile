@@ -32,3 +32,4 @@ USER debug
 WORKDIR /home/debug/
 RUN git clone https://aur.archlinux.org/paru.git && cd paru \
   && makepkg -si --noconfirm && cd .. && rm -rf paru
+CMD [ "bash", "-c", "sleep infinity" ]
