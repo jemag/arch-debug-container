@@ -1,4 +1,4 @@
-FROM archlinux:base-devel@sha256:880766de4e2961c425c6de1666ff852c59e0432fef12cbea7b8c678a80e80710
+FROM archlinux:base-devel@sha256:01bd0ee1c23c3dec1dcb0fce558150a222ee2ef0a3776404de33d0714bcefbb0
 RUN pacman -Syu --noconfirm && pacman -S --noconfirm \
   cargo \
   dnsutils \
